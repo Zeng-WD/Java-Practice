@@ -8,16 +8,16 @@ import java.util.Stack;
  * @author Zeng-WD
  * @date 23:40 2020/12/15
  */
-public class Number20 {
+public class ValidBrackets_20 {
 
-    private Number20() {
+    private ValidBrackets_20() {
     }
 
     private static final class SingletonInstance {
-        private static final Number20 INSTANCE = new Number20();
+        private static final ValidBrackets_20 INSTANCE = new ValidBrackets_20();
     }
 
-    public static Number20 instance() {
+    public static ValidBrackets_20 instance() {
         return SingletonInstance.INSTANCE;
     }
 

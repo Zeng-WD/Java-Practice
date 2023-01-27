@@ -6,16 +6,16 @@ import LeetCode.Tools.ListNode;
  * @author Zeng-WD
  * @date 14:30 2021/1/10
  */
-public class Number2 {
+public class AddTwoNumbers_2 {
 
-    private Number2() {
+    private AddTwoNumbers_2() {
     }
 
     private static class SingletonInstance {
-        private static final Number2 INSTANCE = new Number2();
+        private static final AddTwoNumbers_2 INSTANCE = new AddTwoNumbers_2();
     }
 
-    public static Number2 getInstance() {
+    public static AddTwoNumbers_2 getInstance() {
         return SingletonInstance.INSTANCE;
     }
 

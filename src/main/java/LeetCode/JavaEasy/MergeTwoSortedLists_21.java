@@ -6,16 +6,16 @@ import LeetCode.Tools.ListNode;
  * @author Zeng-WD
  * @date 0:21 2020/12/19
  */
-public class Number21 {
+public class MergeTwoSortedLists_21 {
 
-    private Number21() {
+    private MergeTwoSortedLists_21() {
     }
 
     private static final class SingletonInstance {
-        private static final Number21 INSTANCE = new Number21();
+        private static final MergeTwoSortedLists_21 INSTANCE = new MergeTwoSortedLists_21();
     }
 
-    public static Number21 instance() {
+    public static MergeTwoSortedLists_21 instance() {
         return SingletonInstance.INSTANCE;
     }
 

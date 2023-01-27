@@ -4,16 +4,16 @@ package LeetCode.JavaEasy;
  * @author Zeng-WD
  * @date 23:10 2020/12/20
  */
-public class Number26 {
+public class RemoveDuplicatesInSortedArray_26 {
 
-    private Number26() {
+    private RemoveDuplicatesInSortedArray_26() {
     }
 
     private final static class SingletonInstance {
-        private final static Number26 INSTANCE = new Number26();
+        private final static RemoveDuplicatesInSortedArray_26 INSTANCE = new RemoveDuplicatesInSortedArray_26();
     }
 
-    public static Number26 instance() {
+    public static RemoveDuplicatesInSortedArray_26 instance() {
         return SingletonInstance.INSTANCE;
     }
 

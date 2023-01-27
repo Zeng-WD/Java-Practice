@@ -4,16 +4,16 @@ package LeetCode.JavaEasy;
  * @author Zeng-WD
  * @date 23:33 2020/12/20
  */
-public class Number27 {
+public class RemoveElement_27 {
 
-    private Number27() {
+    private RemoveElement_27() {
     }
 
     private final static class SingletonInstance {
-        private final static Number27 INSTANCE = new Number27();
+        private final static RemoveElement_27 INSTANCE = new RemoveElement_27();
     }
 
-    public static Number27 instance() {
+    public static RemoveElement_27 instance() {
         return SingletonInstance.INSTANCE;
     }
 
