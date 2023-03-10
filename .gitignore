@@ -21,4 +21,3 @@ buildNumber.properties
 **/.gitignore
 /*.log
 /docs/
-/src/main/java/Test.java
