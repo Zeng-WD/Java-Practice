@@ -39,7 +39,9 @@ public class AVLTree<E extends Comparable<E>> {
         return node.height;
     }
 
-    //获取平衡因子(左右子树的高度差，大小为1或者0是平衡的，大小大于1不平衡)
+    /**
+     * 获取平衡因子(左右子树的高度差，大小为1或者0是平衡的，大小大于1不平衡)
+     */
     public int getBalanceFactor() {
         return getBalanceFactor(root);
     }
