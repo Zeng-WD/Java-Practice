@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author Zeng-WD 406927572@qq.com
@@ -15,7 +16,7 @@ import java.util.List;
  */
 public class Permutation_46 {
 
-    static List<Integer> path = new ArrayList<>();
+    static List<Integer> path;
     static int n;
     static List<List<Integer>> res = new ArrayList<>();
 
@@ -30,9 +31,10 @@ public class Permutation_46 {
     }
 
     public static List<List<Integer>> getPermutation(int[] nums) {
-        for (int x : nums) {
-            path.add(x);
-        }
+//        for (int x : nums) {
+//            path.add(x);
+//        }
+        path = Arrays.stream(param).boxed().collect(Collectors.toList());
         n = nums.length;
         backtrace(0);
         return res;
