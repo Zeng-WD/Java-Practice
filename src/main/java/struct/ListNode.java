@@ -1,14 +1,12 @@
 package struct;
 
-import LeetCode.Tools;
-
 /**
  * @author Zeng-WD 406927572@qq.com
  * @date 2023/3/10 19:00
  */
 public class ListNode {
     public int val;
-    public Tools.ListNode next;
+    public ListNode next;
 
     public ListNode() {
     }
@@ -17,7 +15,7 @@ public class ListNode {
         this.val = val;
     }
 
-    public ListNode(int val, Tools.ListNode next) {
+    public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
     }

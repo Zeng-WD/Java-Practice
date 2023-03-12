@@ -32,6 +32,10 @@ public class ClimbStairs_70 {
      */
     public static int climbStairs(int n) {
         // 是斐波那契数列
+//        double sqrt5 = Math.sqrt(5);
+//        double fibn = Math.pow((1 + sqrt5) / 2, n + 1) - Math.pow((1 - sqrt5) / 2, n + 1);
+//        return (int) Math.round(fibn / sqrt5);
+
         // f(x) = f(x - 1) + f(x - 2)
         int p = 0, q = 0, r = 1;
         for (int i = 0; i < n; i++) {
